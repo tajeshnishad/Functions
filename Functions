@@ -1,0 +1,39 @@
+##FUNCTION 
+from re import error
+
+
+def calculatGmean(a,b):
+  mean=(a*b)/(a+b)
+  print(mean)
+a=int(input("Enter the value of a : "))
+b=int(input('enter the value of b : '))
+c=5
+d=10
+
+def isgreater(a,b):
+  if(a>b):
+    print("a is greater then b")
+  elif(a==b):
+    print('a is equal to b')
+  else:
+    print("b is greater then a ")
+
+
+def islesser (a,b):
+  pass                             
+
+# passs command is for sking the function or else it give an interntention error
+
+
+
+
+calculatGmean(a,b)
+calculatGmean(c,d)
+isgreater(a,b)
+isgreater(c,d)
+
+
+
+
+# some biultin function are as follow:
+### min(),max(),len(),sum(),type(),range(),dict(),list(),tuple(),set(),print(),etc.
